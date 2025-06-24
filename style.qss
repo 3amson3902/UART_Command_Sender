@@ -1,0 +1,111 @@
+# UART Command Sender - PyQt6 Style Sheet
+
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QGroupBox {
+    font-weight: bold;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding-top: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px 0 5px;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #3d8b40;
+}
+
+QPushButton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    min-width: 6em;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+}
+
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: "Consolas", monospace;
+}
+
+QTextEdit {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Consolas", monospace;
+}
+
+QListWidget {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-family: "Consolas", monospace;
+}
+
+QListWidget::item {
+    border-bottom: 1px solid #eee;
+    padding: 2px;
+}
+
+QListWidget::item:selected {
+    background-color: #3daee9;
+    color: white;
+}
+
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+QCheckBox::indicator:checked {
+    border: 1px solid #4CAF50;
+    background-color: #4CAF50;
+}

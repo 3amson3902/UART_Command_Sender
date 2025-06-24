@@ -1,0 +1,24 @@
+{
+  "default_baud": "115200",
+  "default_databits": "8",
+  "default_parity": "None",
+  "default_stopbits": "1",
+  "default_line_ending": "\\r\\n",
+  "default_format": "ASCII",
+  "auto_scroll": true,
+  "window_geometry": "800x600",
+  "quick_commands": [
+    "AT",
+    "AT+GMR",
+    "AT+CWLAP",
+    "help",
+    "version",
+    "status",
+    "reset",
+    "echo off",
+    "echo on",
+    "info",
+    "test",
+    "ping"
+  ]
+}
