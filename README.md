@@ -1,6 +1,6 @@
 # UART Command Sender for CH341 (PyQt6)
 
-A modern, professional GUI application for sending commands over UART using CH341 USB-to-Serial converter chips. Built with PyQt6 for a superior user experience with enhanced performance and modern styling.
+A modern, professional (I mean sloppy code) GUI application for sending commands over UART using CH341 USB-to-Serial converter chips. Built with PyQt6 for a superior user experience with enhanced performance and modern styling.
 
 ## Features
 
